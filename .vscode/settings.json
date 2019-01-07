@@ -1,0 +1,15 @@
+{
+  "tslint.configFile": "/home/smushypanda/Projects/foss/flora-web/tslint.json",
+  "prettier.requireConfig": true,
+  "prettier.tslintIntegration": true,
+  "editor.formatOnSave": true,
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "tslint.alwaysShowStatus": true,
+  "tslint.jsEnable": true,
+  "tslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ]
+}

@@ -1,16 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
+    <!-- <div id="nav">
+      <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
-    </div>
+    </div>-->
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+// CSS Reset
+@import './partials/reset';
+
+// Ubuntu Font
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  background: white;
+  display: grid;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

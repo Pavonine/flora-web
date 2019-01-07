@@ -4,7 +4,7 @@
       <h1>{{ appName }}</h1>
     </section>
     <section class="app-settings">
-      <button class="settings-button">Button</button>
+      <button class="settings-button"></button>
     </section>
   </div>
 </template>
@@ -46,8 +46,12 @@ export default class Header extends Vue {
     justify-content: center;
     align-items: center;
     .settings-button {
+      border: none;
+      border-radius: 100%;
+      background: url('../assets/settings.svg') no-repeat center;
       height: 40px;
       width: 40px;
+      box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1);
     }
   }
 }
